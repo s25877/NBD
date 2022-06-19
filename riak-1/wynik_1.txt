@@ -1,0 +1,54 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    69    0     0  100    69      0   2029 --:--:-- --:--:-- --:--:--  2090HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 19 Jun 2022 20:14:05 GMT
+Content-Type: application/json
+Content-Length: 0
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    73    0     0  100    73      0   1697 --:--:-- --:--:-- --:--:--  1738HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 19 Jun 2022 20:13:05 GMT
+Content-Type: application/json
+Content-Length: 0
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    69    0     0  100    69      0   1642 --:--:-- --:--:-- --:--:--  1682HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 19 Jun 2022 20:13:00 GMT
+Content-Type: application/json
+Content-Length: 0
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    70    0     0  100    70      0   2187 --:--:-- --:--:-- --:--:--  2333HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 19 Jun 2022 20:13:00 GMT
+Content-Type: application/json
+Content-Length: 0
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    66    0     0  100    66      0   2275 --:--:-- --:--:-- --:--:--  2357HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 19 Jun 2022 20:13:00 GMT
+Content-Type: application/json
+Content-Length: 0
+
+    Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    69    0     0  100    69      0    547 --:--:-- --:--:-- --:--:--   552HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 19 Jun 2022 20:12:59 GMT
+Content-Type: application/json
+Content-Length: 0
+

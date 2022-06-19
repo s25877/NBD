@@ -1,0 +1,7 @@
+MATCH path = allShortestPaths((start:town {name:"Darjeeling"}) -[*]-> (end:peak {name:"Sandakphu"})) RETURN path
+
+MATCH path = allShortestPaths((start:town {name:"Darjeeling"}) -[*]-> (end:peak {name:"Sandakphu"})) WHERE all (r IN relationships(path) WHERE r.winter="true") RETURN path
+
+MATCH path = (start:town {name: "Darjeeling"}) -[*]-> (end:peak {name: "Sandakphu"}) RETURN path, length(path) ORDER BY length(path)
+
+MATCH (start:town{name:"Darjeeling"}) -[relation:twowheeler*{summer:"true"}]->(next) RETURN start,next

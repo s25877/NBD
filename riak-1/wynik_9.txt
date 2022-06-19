@@ -1,0 +1,26 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    75  100    75    0     0   2500      0 --:--:-- --:--:-- --:--:--  2586HTTP/1.1 200 OK
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Sun, 19 Jun 2022 20:21:39 GMT
+Content-Type: application/json
+Content-Length: 75
+
+{"keys":["PgYtEVz2yKneGoVDEGYP44Y04X1","uzi","jankos","crownshot","faker"]}
+
+
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    24  100    24    0     0    827      0 --:--:-- --:--:-- --:--:--   857HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvl/in38BIpTImMfKIMyococvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s25877>; rel="up"
+Last-Modified: Sun, 19 Jun 2022 20:20:35 GMT
+ETag: "3yoakMLnBNpYwo7LlnMlMV"
+Date: Sun, 19 Jun 2022 20:22:42 GMT
+Content-Type: application/json
+Content-Length: 24
+
+{"nickname":"Showmaker"}

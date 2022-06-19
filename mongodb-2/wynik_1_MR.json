@@ -1,0 +1,11 @@
+MongoDB shell version v5.0.9
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("d91f1d89-bbb4-46fa-82ce-cf802c8c1f1f") }
+MongoDB server version: 5.0.9
+uncaught exception: Error: assert failed : need to supply an optionsOrOutString :
+doassert@src/mongo/shell/assert.js:20:14
+assert@src/mongo/shell/assert.js:151:9
+DBCollection.prototype.mapReduce@src/mongo/shell/collection.js:1074:5
+@zapytanie_1_MR.js:1:11
+failed to load: zapytanie_1_MR.js
+exiting with code -3

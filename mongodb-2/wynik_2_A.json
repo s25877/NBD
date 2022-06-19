@@ -1,0 +1,622 @@
+MongoDB shell version v5.0.9
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("c4d05494-f2d6-4992-864d-bd0d2b8adcca") }
+MongoDB server version: 5.0.9
+[
+	{
+		"_id" : "DZD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "SYP",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "PHP",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "BDT",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "NAD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "CNY",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "THB",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "PAB",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "ANG",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "FKP",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "PGK",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "BHD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "LSL",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "HNL",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "ILS",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "DOP",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "HRK",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "PKR",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "TZS",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "SAR",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "BZD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "MAD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "TTD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "MKD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "UYU",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "JOD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "MRO",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "MNT",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "TMT",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "BBD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "KMF",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "JMD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "RWF",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "MUR",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "EGP",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "AFN",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "KHR",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "BTN",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "RSD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "TOP",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "AMD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "HKD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "ZAR",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "MYR",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "YER",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "MMK",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "MDL",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "KPW",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "KYD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "SBD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "ZWL",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "NZD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "KWD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "EUR",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "SOS",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "BWP",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "TJS",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "AWG",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "GYD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "BND",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "MOP",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "NGN",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "IDR",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "CZK",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "GEL",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "BRL",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "LTL",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "DJF",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "LKR",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "BYR",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "CHF",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "NIO",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "SSP",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "GNF",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "IRR",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "FJD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "SDG",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "KRW",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "ZMW",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "XOF",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "LRD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "SEK",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "KZT",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "BIF",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "CUP",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "RON",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "MVR",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "AUD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "BAM",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "MWK",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "PEN",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "NPR",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "AOA",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "XAF",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "LAK",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "CAD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "UGX",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "CRC",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "VEF",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "RUB",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "MXN",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "SGD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "MGA",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "TRY",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "DKK",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "XPF",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "BGN",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "VUV",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "GBP",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "ERN",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "AED",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "MZN",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "SCR",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "INR",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "HUF",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "TND",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "QAR",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "TWD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "VND",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "LBP",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "SRD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "UAH",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "BSD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "SZL",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "WST",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "GHS",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "XCD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "SLL",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "CDF",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "ETB",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "NOK",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "HTG",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "KGS",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "PLN",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "IQD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "KES",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "USD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "UZS",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "STD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "LYD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "OMR",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "CVE",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "BMD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "JPY",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "COP",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "GMD",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "CLP",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "BOB",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "ARS",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "AZN",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "ISK",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "GTQ",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "PYG",
+		"sumOfBalance" : 0
+	},
+	{
+		"_id" : "ALL",
+		"sumOfBalance" : 0
+	}
+]

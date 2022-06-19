@@ -1,0 +1,17 @@
+MATCH (m:Movie) RETURN m
+
+MATCH (hugo:Person {name:"Hugo Weaving"})-[:ACTED_IN]->(hugoMovies) RETURN hugo,hugoMovies
+
+MATCH (hugo:Person {name:"Hugo Weaving"})-[:ACTED_IN]->(hugoMovies)<-[:DIRECTED]-(directors) RETURN directors
+
+MATCH (hugo:Person {name:"Hugo Weaving"})-[:ACTED_IN]->(hugoMovies)<-[:ACTED_IN]-(relatedActors) RETURN relatedActors
+
+MATCH (matrix:Movie{title:"The Matrix"})<-[:ACTED_IN]-(actors:Person)-[:ACTED_IN]->(otherMovies:Movie) RETURN otherMovies
+
+MATCH (person: Person)-[:ACTED_IN]->(movie:Movie) RETURN COUNT(movie) AS movies_count ,person
+
+MATCH (person:Person)-[:WROTE]->(movie:Movie) WHERE (person)-[:DIRECTED]->(movie) RETURN person,movie
+
+MATCH (keanu:Person {name:"Keanu Reeves"})-[:ACTED_IN]->(movie:Movie)<-[:ACTED_IN]-(hugo:Person {name:"Hugo Weaving"}) RETURN movie
+
+CREATE (movie:Movie{title:"Captain America: The First Avenger",released:2011,tagline:"When patriots become heroes"}), (person1:Person{name:"Chris Evans",born:1981}),(person2:Person{name:"Samuel L. Jackson",born:1948}),(person3:Person{name:"Hayley Atwell",born:1982}),(person1)-[:ACTED_IN]->(movie),(person2)-[:ACTED_IN]->(movie),(person3)-[:ACTED_IN]->(movie)

@@ -1,0 +1,88 @@
+MongoDB shell version v5.0.9
+connecting to: mongodb://127.0.0.1:27017/nbd?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("73ae7175-0d6a-415a-8118-5d246be4f032") }
+MongoDB server version: 5.0.9
+uncaught exception: Error: command failed: {
+	"ok" : 0,
+	"errmsg" : "PlanExecutor error during aggregation :: caused by :: $divide only supports numeric types, not string and double",
+	"code" : 14,
+	"codeName" : "TypeMismatch"
+} with original command request: {
+	"aggregate" : "people",
+	"pipeline" : [
+		{
+			"$group" : {
+				"_id" : "$nationality",
+				"averBmi" : {
+					"$avg" : {
+						"$divide" : [
+							"$weight",
+							{
+								"$pow" : [
+									{
+										"$divide" : [
+											"$height",
+											100
+										]
+									},
+									2
+								]
+							}
+						]
+					}
+				},
+				"maxBmi" : {
+					"$max" : {
+						"$divide" : [
+							"$weight",
+							{
+								"$pow" : [
+									{
+										"$divide" : [
+											"$height",
+											100
+										]
+									},
+									2
+								]
+							}
+						]
+					}
+				},
+				"minBmi" : {
+					"$min" : {
+						"$divide" : [
+							"$weight",
+							{
+								"$pow" : [
+									{
+										"$divide" : [
+											"$height",
+											100
+										]
+									},
+									2
+								]
+							}
+						]
+					}
+				}
+			}
+		}
+	],
+	"cursor" : {
+		
+	},
+	"lsid" : {
+		"id" : UUID("73ae7175-0d6a-415a-8118-5d246be4f032")
+	}
+} on connection: connection to 127.0.0.1:27017 : aggregate failed :
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+doassert@src/mongo/shell/assert.js:18:14
+_assertCommandWorked@src/mongo/shell/assert.js:737:17
+assert.commandWorked@src/mongo/shell/assert.js:829:16
+DB.prototype._runAggregate@src/mongo/shell/db.js:281:5
+DBCollection.prototype.aggregate@src/mongo/shell/collection.js:1058:12
+@zapytanie_4_A.js:1:11
+failed to load: zapytanie_4_A.js
+exiting with code -3
