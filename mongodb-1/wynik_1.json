@@ -1,0 +1,67 @@
+MongoDB shell version v5.0.9
+connecting to: mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb
+Implicit session: session { "id" : UUID("ad5589e2-c8ee-49d7-9b7e-3d7c1b027cf8") }
+MongoDB server version: 5.0.9
+================
+Warning: the "mongo" shell has been superseded by "mongosh",
+which delivers improved usability and compatibility.The "mongo" shell has been deprecated and will be removed in
+an upcoming release.
+For installation instructions, see
+https://docs.mongodb.com/mongodb-shell/install/
+================
+---
+The server generated these startup warnings when booting: 
+        2022-06-16T10:00:54.407+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+        2022-06-16T10:00:54.981+00:00: Access control is not enabled for the database. Read and write access to data and configuration is unrestricted
+        2022-06-16T10:00:54.981+00:00: /sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never'
+---
+---
+        Enable MongoDB's free cloud-based monitoring service, which will then receive and display
+        metrics about your deployment (disk utilization, CPU, operation statistics, etc).
+
+        The monitoring data will be available on a MongoDB website with a unique URL accessible to you
+        and anyone you share the URL with. MongoDB may use this information to make product
+        improvements and to suggest MongoDB products and deployment options to you.
+
+        To enable free monitoring, run the following command: db.enableFreeMonitoring()
+        To permanently disable this reminder, run the following command: db.disableFreeMonitoring()
+---
+> use nbd[3G[Juse nbd[10G
+switched to db nbd
+> printjson(db.people.findon[3G[Jprintjson(db.people.findo[28G[3G[Jprintjson(db.people.find[27GOne())[3G[Jprintjson(db.people.findOne())[33G
+{
+	"_id" : ObjectId("62ab02865664447a4177f525"),
+	"sex" : "Male",
+	"first_name" : "Harry",
+	"last_name" : "Lawson",
+	"job" : "Product Engineer",
+	"email" : "hlawson2@flavors.me",
+	"location" : {
+		"city" : "Tutong",
+		"address" : {
+			"streetname" : "Summerview",
+			"streetnumber" : "93836"
+		}
+	},
+	"description" : "lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem",
+	"height" : "173.4",
+	"weight" : "75.25",
+	"birth_date" : "1965-02-18T07:22:24Z",
+	"nationality" : "Brunei",
+	"credit" : [
+		{
+			"type" : "mastercard",
+			"number" : "56022541652043117",
+			"currency" : "COP",
+			"balance" : "3843.63"
+		},
+		{
+			"type" : "jcb",
+			"number" : "5602220902466171",
+			"currency" : "SEK",
+			"balance" : "3870.48"
+		}
+	]
+}
+> [3G[J[3G^C
+bye
