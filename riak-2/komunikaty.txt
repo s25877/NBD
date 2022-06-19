@@ -1,0 +1,7 @@
+{"keys":["uzi","crownshot","faker","jankos"]}
+<Response [204]>
+nickname=Caps&age=22&IsRetired=False&Possition=MidLane
+<Response [204]>
+nickname=Caps&age=22&IsRetired=False&Possition=BotLane
+<Response [204]>
+not found
